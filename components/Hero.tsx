@@ -197,7 +197,7 @@ export default function Hero() {
                     animation: prefersReduced ? "none" : "stat-float-1 5s ease-in-out infinite",
                   }}
                 >
-                  <div className="text-[22px] font-extrabold gradient-text leading-none">200+</div>
+                  <div className="text-[22px] font-extrabold gradient-text leading-none">50+</div>
                   <div className="text-[11px] text-[#B8B0A0] mt-0.5">Curated venues</div>
                 </div>
 

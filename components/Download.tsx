@@ -73,69 +73,60 @@ export default function Download() {
             </div>
           </div>
 
-          {/* Right: Two phones */}
+          {/* Right: Two phones with real screenshots */}
           <div className="flex justify-center relative reveal delay-2">
-            <div className="relative h-[480px] w-full max-w-[360px]">
-              {/* Back phone */}
+            <div className="relative h-[500px] w-full max-w-[380px]">
+              {/* Back phone — Map screen */}
               <div
-                className="absolute w-[200px]"
-                style={{ left: "50%", top: 40, transform: "translateX(-70%) rotate(-8deg)", zIndex: 1, opacity: 0.6 }}
+                className="absolute w-[210px]"
+                style={{ left: "50%", top: 40, transform: "translateX(-72%) rotate(-8deg)", zIndex: 1, opacity: 0.75 }}
               >
                 <div
-                  className="rounded-[36px] p-2.5"
+                  className="rounded-[40px] p-[10px]"
                   style={{ background: "#1c1c1c", boxShadow: "0 0 0 1px rgba(255,255,255,0.07), 0 24px 80px rgba(0,0,0,0.6)" }}
                 >
-                  <div
-                    className="rounded-[28px] overflow-hidden flex flex-col gap-3 p-[14px]"
-                    style={{ aspectRatio: "9/19", background: "linear-gradient(160deg, #100d08 0%, #1c1608 40%, #080807 100%)" }}
-                  >
-                    <div className="h-2 rounded-full w-[70%]" style={{ background: "rgba(201,168,76,0.25)" }} />
-                    <div className="h-1.5 rounded-full w-[60%]" style={{ background: "rgba(255,255,255,0.08)" }} />
-                    <div className="h-[70px] rounded-[12px] border" style={{ background: "rgba(255,255,255,0.04)", borderColor: "rgba(255,255,255,0.06)" }} />
-                    <div className="h-[70px] rounded-[12px] border" style={{ background: "rgba(255,255,255,0.04)", borderColor: "rgba(255,255,255,0.06)" }} />
-                    <div className="h-[70px] rounded-[12px] border" style={{ background: "rgba(255,255,255,0.04)", borderColor: "rgba(255,255,255,0.06)" }} />
+                  <div className="rounded-[32px] overflow-hidden" style={{ aspectRatio: "9/19" }}>
+                    <img
+                      src="/app/screenshot-map.png"
+                      alt="Ehgz app map view"
+                      className="w-full h-full object-cover object-top"
+                      draggable={false}
+                    />
                   </div>
                 </div>
               </div>
 
-              {/* Front phone */}
+              {/* Front phone — Search screen */}
               <div
-                className="absolute w-[200px]"
-                style={{ left: "50%", top: 0, transform: "translateX(-30%)", zIndex: 2 }}
+                className="absolute w-[210px]"
+                style={{ left: "50%", top: 0, transform: "translateX(-28%)", zIndex: 2 }}
               >
                 <div
-                  className="rounded-[36px] p-2.5"
-                  style={{ background: "#1c1c1c", boxShadow: "0 0 0 1px rgba(255,255,255,0.07), 0 24px 80px rgba(0,0,0,0.6)" }}
+                  className="rounded-[40px] p-[10px]"
+                  style={{
+                    background: "#1c1c1c",
+                    boxShadow: "0 0 0 1px rgba(255,255,255,0.08), 0 32px 100px rgba(0,0,0,0.7), 0 0 60px rgba(201,168,76,0.1)",
+                  }}
                 >
-                  <div
-                    className="rounded-[28px] overflow-hidden flex flex-col gap-3 p-[14px]"
-                    style={{ aspectRatio: "9/19", background: "linear-gradient(160deg, #0f0e0b 0%, #1a1508 30%, #0d0b06 70%, #080807 100%)" }}
-                  >
-                    <div className="h-2 rounded-full" style={{ background: "rgba(201,168,76,0.25)" }} />
-                    <div className="h-1.5 rounded-full w-[60%]" style={{ background: "rgba(255,255,255,0.08)" }} />
-                    <div
-                      className="h-[90px] rounded-[14px] border"
-                      style={{
-                        background: "linear-gradient(135deg, rgba(201,168,76,0.15), rgba(196,135,90,0.1))",
-                        borderColor: "rgba(201,168,76,0.15)",
-                      }}
+                  <div className="rounded-[32px] overflow-hidden" style={{ aspectRatio: "9/19" }}>
+                    <img
+                      src="/app/screenshot-search.png"
+                      alt="Ehgz app search view"
+                      className="w-full h-full object-cover object-top"
+                      draggable={false}
                     />
-                    <div className="h-1.5 rounded-full w-[80%]" style={{ background: "rgba(255,255,255,0.08)" }} />
-                    <div className="h-[70px] rounded-[12px] border" style={{ background: "rgba(255,255,255,0.04)", borderColor: "rgba(255,255,255,0.06)" }} />
-                    <div className="h-[70px] rounded-[12px] border" style={{ background: "rgba(255,255,255,0.04)", borderColor: "rgba(255,255,255,0.06)" }} />
                   </div>
                 </div>
               </div>
 
               {/* Ambient glow */}
               <div
-                className="absolute"
+                className="absolute pointer-events-none"
                 style={{
-                  bottom: 40, left: "50%", transform: "translateX(-50%)",
-                  width: 200, height: 80,
-                  background: "radial-gradient(ellipse, rgba(201,168,76,0.2) 0%, transparent 70%)",
-                  filter: "blur(20px)",
-                  pointerEvents: "none",
+                  bottom: 20, left: "50%", transform: "translateX(-50%)",
+                  width: 240, height: 80,
+                  background: "radial-gradient(ellipse, rgba(201,168,76,0.22) 0%, transparent 70%)",
+                  filter: "blur(24px)",
                 }}
               />
             </div>

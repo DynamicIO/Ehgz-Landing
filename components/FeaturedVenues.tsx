@@ -20,7 +20,7 @@ const venueCards = [
     rating: "4.8",
     badge: "Lebanese",
     tags: ["Lebanese", "Grand Arches", "Trendy"],
-    img: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop&crop=entropy&q=80",
+    img: "/venues/babel.jpg",
     fallback: "linear-gradient(135deg, #1A0D22 0%, #6B3FA0 40%, #C9A84C 80%, #1A0D22 100%)",
   },
   {
@@ -30,7 +30,7 @@ const venueCards = [
     rating: "4.7",
     badge: "Lounge",
     tags: ["Lounge", "Pyramids View"],
-    img: "https://images.unsplash.com/photo-1568322445389-f64ac2515099?w=600&h=400&fit=crop&crop=entropy&q=80",
+    img: "/venues/nine-pyramids-lounge.jpg",
     fallback: "linear-gradient(135deg, #1A1A0D 0%, #3D3010 40%, #C9A84C 80%, #0D0C06 100%)",
   },
   {
