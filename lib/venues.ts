@@ -1,0 +1,60 @@
+import type { Venue } from "@/types";
+
+export const venues: Venue[] = [
+  {
+    id: 1,
+    name: "Khufu's Restaurant",
+    area: "Giza",
+    vibe: "Pyramid View",
+    gradient: "from-amber-900 via-orange-800 to-yellow-900",
+    badge: "Iconic View",
+  },
+  {
+    id: 2,
+    name: "Babel",
+    area: "New Cairo",
+    vibe: "Lebanese",
+    gradient: "from-rose-900 via-red-800 to-orange-900",
+    badge: "Lebanese",
+  },
+  {
+    id: 3,
+    name: "Nine Pyramids Lounge",
+    area: "Giza",
+    vibe: "Rooftop",
+    gradient: "from-indigo-900 via-purple-900 to-slate-900",
+    badge: "Rooftop",
+  },
+  {
+    id: 4,
+    name: "Pier88 Nile River",
+    area: "Gezira",
+    vibe: "Nile View",
+    gradient: "from-teal-900 via-cyan-900 to-blue-900",
+    badge: "Nile View",
+  },
+  {
+    id: 5,
+    name: "ESCĀ Cueva",
+    area: "New Giza",
+    vibe: "Fine Dining",
+    gradient: "from-stone-900 via-zinc-800 to-neutral-900",
+    badge: "Fine Dining",
+  },
+  {
+    id: 6,
+    name: "Crimson Bar & Grill",
+    area: "Zamalek",
+    vibe: "Bar & Grill",
+    gradient: "from-red-950 via-rose-900 to-pink-950",
+    badge: "Bar & Grill",
+  },
+  {
+    id: 7,
+    name: "Kazoku",
+    area: "New Cairo",
+    vibe: "Japanese",
+    gradient: "from-slate-900 via-gray-900 to-zinc-900",
+    badge: "Japanese",
+  },
+];
