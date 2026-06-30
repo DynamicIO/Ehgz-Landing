@@ -34,7 +34,7 @@ export default function Stats() {
         if (entry.isIntersecting && !animated) {
           setAnimated(true);
           const items = section.querySelectorAll<HTMLElement>(".stat-val");
-          if (items[0]) animateCount(items[0], 200, "+");
+          if (items[0]) animateCount(items[0], 50, "+");
           if (items[1]) items[1].textContent = "<60s";
           if (items[2]) animateCount(items[2], 4.9, "★", 1800, true);
           if (items[3]) animateCount(items[3], 0, "");
@@ -60,7 +60,7 @@ export default function Stats() {
           style={{ background: "rgba(255,255,255,0.07)" }}
         >
           {[
-            { lbl: "Curated venues across Cairo", initial: "200+" },
+            { lbl: "Curated venues across Cairo", initial: "50+" },
             { lbl: "Average booking time", initial: "<60s" },
             { lbl: "Average app store rating", initial: "4.9★" },
             { lbl: "WhatsApp messages required", initial: "0" },

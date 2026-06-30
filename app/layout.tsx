@@ -27,7 +27,6 @@ export const metadata: Metadata = {
     "Egypt food",
     "Cairo booking",
     "Ehgz",
-    "إحجز",
     "Cairo cafes",
     "Egypt tourism",
     "restaurant booking Egypt",

@@ -48,9 +48,6 @@ export default function Navbar() {
                 Ehgz
               </div>
             </div>
-            <div className="text-sm text-[#C9A84C] font-normal opacity-80">
-              إحجز
-            </div>
           </a>
 
           {/* Desktop nav links */}

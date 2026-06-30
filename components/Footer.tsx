@@ -17,7 +17,6 @@ export default function Footer() {
               </div>
               <div>
                 <span className="text-[22px] font-extrabold tracking-tight text-[#FAFAF8]">Ehgz</span>
-                <span className="text-sm text-[#C9A84C] ml-2 opacity-70">إحجز</span>
               </div>
             </div>
             <p className="text-sm text-[rgba(250,250,248,0.4)] leading-[1.6] mb-6 max-w-[260px]">

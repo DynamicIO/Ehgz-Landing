@@ -25,7 +25,7 @@ export default function Hero() {
   }, [prefersReduced]);
 
   return (
-    <section id="hero" className="min-h-screen relative flex items-center overflow-hidden">
+    <section id="hero" className="relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <div
@@ -86,7 +86,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-[2] w-full pt-[120px] pb-20">
+      <div className="relative z-[2] w-full pt-[120px] pb-16">
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[60px] items-center">
 
@@ -94,17 +94,11 @@ export default function Hero() {
             <div className="text-center lg:text-left">
               {/* H1 */}
               <h1
-                className="font-inter font-black leading-[0.95] tracking-[-3px] gradient-text mb-2"
+                className="font-inter font-black leading-[0.95] tracking-[-3px] gradient-text mb-6"
                 style={{ fontSize: "clamp(56px, 7vw, 96px)" }}
               >
                 Ehgz
               </h1>
-              <span
-                className="block font-inter font-light tracking-[-1px] text-[#C9A84C] opacity-70 mb-6 italic"
-                style={{ fontSize: "clamp(36px, 4.5vw, 60px)" }}
-              >
-                إحجز
-              </span>
               <p
                 className="font-inter font-semibold tracking-[0.12em] uppercase text-[#B8B0A0] mb-5"
                 style={{ fontSize: "clamp(18px, 2.2vw, 24px)" }}
@@ -222,20 +216,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll hint */}
-      <div
-        className="absolute bottom-8 left-1/2 flex flex-col items-center gap-2 z-[2]"
-        style={{
-          transform: "translateX(-50%)",
-          animation: prefersReduced ? "none" : "scroll-hint 2s ease-in-out infinite",
-        }}
-      >
-        <span className="text-[10px] tracking-[0.15em] uppercase text-[#FAFAF8]/40">Scroll</span>
-        <div
-          className="w-px h-10"
-          style={{ background: "linear-gradient(to bottom, #C9A84C, transparent)" }}
-        />
-      </div>
     </section>
   );
 }

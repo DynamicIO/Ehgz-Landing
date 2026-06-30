@@ -210,18 +210,6 @@ export default function WhyEhgz() {
               style={{ background: "linear-gradient(to right, transparent, #C9A84C, transparent)" }}
             />
 
-            {/* Faint Arabic watermark */}
-            <div
-              className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden"
-              aria-hidden="true"
-            >
-              <span
-                className="font-inter font-black text-center leading-none"
-                style={{ fontSize: "clamp(120px, 22vw, 280px)", color: "rgba(201,168,76,0.04)", letterSpacing: "-4px" }}
-              >
-                إحجز
-              </span>
-            </div>
 
             {/* Content */}
             <div className="relative z-10 flex flex-col lg:flex-row lg:items-center gap-12 lg:gap-20">

@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import TrustBar from "@/components/TrustBar";
 import HowItWorks from "@/components/HowItWorks";
 import FeaturedVenues from "@/components/FeaturedVenues";
 import WhyEhgz from "@/components/WhyEhgz";
@@ -14,13 +13,12 @@ export default function Home() {
     <main className="relative min-h-screen overflow-x-hidden">
       <Navbar />
       <Hero />
-      <TrustBar />
       <FeaturedVenues />
       <HowItWorks />
       <WhyEhgz />
       <Stats />
-      <ForVenues />
       <Download />
+      <ForVenues />
       <Footer />
     </main>
   );

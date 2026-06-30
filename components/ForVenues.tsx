@@ -40,18 +40,6 @@ export default function ForVenues() {
             className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-px"
             style={{ background: "linear-gradient(to right, transparent, #C9A84C, transparent)" }}
           />
-          {/* Arabic ornament */}
-          <div
-            className="absolute font-inter font-black pointer-events-none select-none whitespace-nowrap"
-            style={{
-              fontSize: 400,
-              color: "rgba(201,168,76,0.02)",
-              top: "50%", left: "50%",
-              transform: "translate(-50%, -50%)",
-            }}
-          >
-            إحجز
-          </div>
 
           <div className="relative z-[1]">
             {/* Icon */}
